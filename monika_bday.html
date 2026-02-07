@@ -1,0 +1,111 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    /* General Styling */
+body {
+    background-color: #fce4ec; /* Soft pink background */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.card {
+    background: white;
+    padding: 3rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    max-width: 400px;
+    transition: all 0.5s ease;
+    animation: fadeIn 0.8s ease-out;
+}
+
+h1 {
+    color: #d81b60;
+}
+
+p {
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Button Styling */
+button {
+    background-color: #d81b60;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: transform 0.2s;
+}
+
+button:hover {
+    background-color: #ad1457;
+    transform: scale(1.05);
+}
+
+/* Utility Classes */
+.hidden {
+    display: none;
+}
+
+.cake {
+    font-size: 4rem;
+    margin: 20px 0;
+}
+
+.confetti {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+/* Simple Fade-in Animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+body{
+  background: url(./uss.jpeg);
+  
+}
+</style>
+<body>
+
+    <div class="container">
+        <div id="front-page" class="card">
+            <h1>🎁 A Surprise for You!</h1>
+            <p>Somebody is thinking of you today...</p>
+            <button id="open-btn" onclick="revealBirthday()">Click Here to Open</button>
+        </div>
+
+        <div id="birthday-page" class="card hidden">
+            <div class="confetti">✨ 🎉 ✨</div>
+            <h1>Happy Birthday! 🎂</h1>
+            <p>"I know, I know... We are late. But honestly?... Someone as amazing as you can’t be celebrated in just 24 hours. Consider this the start of your 'Birthday .' You mean a lot for us , and even though we missed the calendar date, we never miss a moment being grateful for our friendship" ONCE AGAIN HAPPIEST BIRTHDAY MONIKA("CHASHMISH")</p>
+            <div class="cake">🎂</div>
+            <button onclick="location.reload()">Back</button>
+        </div>
+    </div>
+
+    <script>
+        function revealBirthday() {
+            document.getElementById('front-page').classList.add('hidden');
+            document.getElementById('birthday-page').classList.remove('hidden');
+        }
+    </script>
+</body>
+</html>
