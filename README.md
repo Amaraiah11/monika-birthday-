@@ -1,7 +1,7 @@
 # 🎂 Celebration Web Experience — Responsive Interactive Greeting Engine
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=881337,BE123C,FB7185&height=220&section=header&text=Celebration%20Web%20Experience&fontSize=40&fontColor=ffffff&fontAlignY=38&desc=Responsive%20Interactive%20Greeting%20Engine%20with%20CSS%20Animations&descSize=16&descAlignY=60&descAlign=50" width="100%" alt="Celebration Web Experience Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:881337,50:BE123C,100:FB7185&customColorList=881337,BE123C,FB7185&height=220&section=header&text=Celebration%20Web%20Experience&fontSize=38&fontColor=ffffff&fontAlignY=38&desc=Responsive%20Interactive%20Greeting%20Engine%20with%20CSS%20Animations&descSize=15&descAlignY=60&descAlign=50" width="100%" alt="Celebration Web Experience Banner" />
 </p>
 
 <p align="center">
@@ -150,5 +150,5 @@ Contributions, bug reports, and architectural discussions are welcome!
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=881337,BE123C,FB7185&height=100&section=footer" width="100%" alt="Footer Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:881337,50:BE123C,100:FB7185&customColorList=881337,BE123C,FB7185&height=100&section=footer" width="100%" alt="Footer Banner" />
 </p>
